@@ -1,0 +1,28 @@
+{
+  "name": "wp-breaking-news",
+  "version": "1.0.0",
+  "description": "Display breaking news",
+  "main": "index.html",
+  "scripts": {
+    "dev": "gulp",
+    "translate": "gulp pot"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.toptal.com:screening/Kamal-Hosen.git"
+  },
+  "keywords": [
+    "wordpress"
+  ],
+  "author": "Kamal Hosen",
+  "license": "GPL-3.0-or-later",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-clean": "^0.4.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-wp-pot": "^2.5.0",
+    "gulp-zip": "^5.1.0",
+    "sass": "^1.54.4"
+  }
+}

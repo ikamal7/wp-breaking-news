@@ -1,0 +1,21 @@
+.wpbn_breaking_news {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+    border: 1px solid #000;
+}
+
+.wpbn_breaking_news_header {
+    margin-right: 10px;
+    padding: 5px;
+}
+
+.wpbn_breaking_news_item a {
+    // text-decoration: none;
+}
+a.wpbn_breaking_news_edit{
+    // text-decoration: underline;
+    margin: 0 5px;
+}

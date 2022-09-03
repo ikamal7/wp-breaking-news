@@ -1,0 +1,123 @@
+body.toplevel_page_wpbn-breaking-news-menu{
+    background: #f6f7fc;
+}
+body .wpbn-main-wrapper{
+    padding: 80px 100px;
+
+    .wpbn-header {
+        margin-bottom: 42px;
+
+        >h1{
+            font-size: 36px;
+            line-height: 42px;
+            color: #101010;
+            margin: 0;
+            padding: 0;
+            font-weight: 600;
+        }
+    }
+    .wpbn-body{
+        .wpbn-form{
+            .wpbn-form-input-group{
+                display: flex;
+                align-items: center;
+                flex-wrap: wrap;
+                margin-bottom: 30px;
+        
+                label.wpbn-form-input-label {
+                    margin-right: 30px;
+                    font-size: 18px;
+                    font-weight: 600;
+                    color: #101010;
+                    min-width: 200px;
+                }
+                input[type=text]{
+                    border: 1px solid transparent;
+                    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 10%);
+                    border-radius: 4px;
+                    height: 54px;
+                    background: #fff;
+                    &:focus{
+                        border-color: #4285f4;
+                    }
+                }
+                
+                // input[type=checkbox].wpbn-switch {
+                //     cursor: pointer;
+                //     width: 55px;
+                //     height: 24px;
+                //     background: #ddd;
+                //     display: block;
+                //     border-radius: 100px;
+                //     position: relative;
+                //     box-shadow: unset;
+                //     outline: unset;
+                //     border: unset;
+            
+                //     &:after {
+                //         content: "";
+                //         position: absolute;
+                //         top: 4px;
+                //         left: 4px;
+                //         width: 15px;
+                //         height: 15px;
+                //         background: #fff;
+                //         border-radius: 90px;
+                //         transition: .3s;
+                //         box-shadow: 0 1px 3px rgba(0, 0, 0, 0.21);
+                //     }
+            
+                //     &:before {
+                //         content: "OFF";
+                //         position: absolute;
+                //         right: 10px;
+                //         top: 50%;
+                //         transform: translateY(-50%);
+                //         color: #fff;
+                //         font-size: 10px;
+                //         display: inline-block;
+                //         text-transform: uppercase;
+                //         font-weight: 600;
+                //     }
+            
+                //     &:checked {
+                //         background: #4285f4;
+            
+                //         &:after {
+                //             left: calc(100% - 5px);
+                //             transform: translateX(-100%);
+                //         }
+            
+                //         &:before {
+                //             top: 100%;
+                //             content: "ON";
+                //             right: inherit;
+                //             left: 10px;
+                //         }
+                //     }
+                // }
+                .btn{
+                    background-color: #4285f4;
+                    font-size: 16px;
+                    line-height: 18px;
+                    color: #fff;
+                    border-radius: 5px;
+                    padding: 15px 30px;
+                    -webkit-box-shadow: 0 1px 5px rgb(66 133 244 / 50%);
+                    box-shadow: 0 1px 5px rgb(66 133 244 / 50%);
+                    margin-bottom: 5px;
+                    border: none;
+                    cursor: pointer;
+                }
+                .wpbn-form-input-label-radio{
+                    font-size: 18px;
+                    line-height: 18px;
+                    font-weight: 400;
+                    color: #444;
+                    margin-right: 10px;
+                }
+            }
+
+        }
+    }
+}
